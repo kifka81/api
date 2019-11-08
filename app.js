@@ -2,6 +2,7 @@ import express from 'express';
 
 import ctrlFilm from './controllers/films/index.js';
 import ctrlUser from './controllers/usuarios/index.js';
+import ctrlVotos from './controllers/votos/index.js';
 
 
 import errorHandler from './middleware/error-handler.js';
@@ -13,6 +14,7 @@ app.use(express.json());
 
 app.use('/film', ctrlFilm);
 app.use('/usuario', ctrlUser);
+app.use('/votos',ctrlVotos);
 
 
 

@@ -26,4 +26,4 @@ class MongoManager {
 
 }
 
-export default new MongoManager("mongodb://localhost:27017/filmVoteData");
+export default new MongoManager("mongodb://localhost:27017/filmVote");

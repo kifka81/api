@@ -20,6 +20,12 @@ list(){
     .lean();
 }
 
+listOne(id){
+    
+    return Votos.findById(id)
+    .exec();
+}
+
 update(id,data){
     return Votos.findByIdAndUpdate(id,data,{new:true, useFindAndModify:false})
     .exec();

@@ -11,9 +11,9 @@ const films = await filmDao.list();
             film.push({film_number:film_number});
 
         };
-            if (film === null){
-                res(HTTPError(404));
-            };
+            // if (film === null){
+            //     res(HTTPError(404));
+            // };
 
                 res.json(films);
 

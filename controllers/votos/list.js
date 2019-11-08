@@ -4,6 +4,7 @@ const list =async (req,res,next)=> {
 
 const filmVotado = await votosDao.list();
 
+
     try {
         if (req.query ['votos'] == 'true') {
             
@@ -15,7 +16,7 @@ const filmVotado = await votosDao.list();
                 res(HTTPError(404));
             };
 
-                res.json(films);
+                res.json(filmVotado);
 
     }catch (err) {
 
