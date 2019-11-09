@@ -17,6 +17,6 @@ const filmSchema=Schema({
       Awards : String,
       Poster : String,
       imdbRating : String,
-      rating : Number
+      votos : Number
 })
 export default mongoose.model('Films',filmSchema);
