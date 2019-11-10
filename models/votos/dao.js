@@ -1,4 +1,3 @@
-//import mongoose from 'mongoose';
 import Votos from './model.js';
 import mongo from '../../mongo/mongoManager.js';
 
