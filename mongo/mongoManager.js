@@ -1,14 +1,17 @@
 import mongoose from 'mongoose';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 class MongoManager {
 
-    //#config;
+    #config;
     
     constructor(config){
-        this._config = config;
+        this.#config = config;
     }
     getConnectionURL(){
-        return this._config;
+        return this.#config;
     }
 
     isConnected(){
@@ -26,4 +29,5 @@ class MongoManager {
 
 }
 
+//export default new MongoManager("mongodb://localhost:27017/filmVote");
 export default new MongoManager(process.env.MONGODB_URI);
