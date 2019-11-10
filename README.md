@@ -2,6 +2,7 @@
 Api Rest para FilmVote App
 # Proyecto: Application MEAN Full-stack: Back-End | FilmVote
 Por Toni Reis & Angela Turizo
+
 [![logo-proyecto](https://imgur.com/bbISOvdt.jpg)](https://imgur.com/bbISOvdt.jpg)
 
 ### 1. Introducción
