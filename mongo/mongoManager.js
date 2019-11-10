@@ -1,4 +1,7 @@
 import mongoose from 'mongoose';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 class MongoManager {
 
@@ -8,7 +11,7 @@ class MongoManager {
         this.#config = config;
     }
     getConnectionURL(){
-        return this.#config;
+        return this.#config.MONGODB_URI;
     }
 
     isConnected(){
@@ -26,4 +29,4 @@ class MongoManager {
 
 }
 
-export default new MongoManager("mongodb+srv://<username>:<password>@cluster0-vi9uq.mongodb.net/test?retryWrites=true&w=majority");
+export default new MongoManager(config);
