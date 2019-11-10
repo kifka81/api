@@ -30,4 +30,4 @@ class MongoManager {
 }
 
 //export default new MongoManager("mongodb://localhost:27017/filmVote");
-export default new MongoManager(process.env.MONGODB_URI);
+export default new MongoManager('mongodb+srv://filmVote:DB_myMongoOn@filmvote-hykau.mongodb.net/test?retryWrites=true&w=majority');
