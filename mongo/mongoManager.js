@@ -1,17 +1,17 @@
 import mongoose from 'mongoose';
-import dotenv from 'dotenv';
+//import dotenv from 'dotenv';
 
-dotenv.config();
+//dotenv.config();
 
 class MongoManager {
 
-    #config;
+    //#config;
     
     constructor(config){
-        this.#config = config;
+        this._config = config;
     }
     getConnectionURL(){
-        return this.#config;
+        return this._config;
     }
 
     isConnected(){
