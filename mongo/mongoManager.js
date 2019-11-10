@@ -1,11 +1,6 @@
 import mongoose from 'mongoose';
-//import dotenv from 'dotenv';
-
-//dotenv.config();
 
 class MongoManager {
-
-    //#config;
     
     constructor(config){
         this._config = config;
