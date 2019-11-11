@@ -9,6 +9,7 @@ Por Toni Reis & Angela Turizo
 ### Objetivo
 
 - Crear una aplicación funcional en la que se presenta una selección de películas con la posibilidad de ver el detalle de cada una con información como:
+
 • Título
 
 • Año de estreno
@@ -20,8 +21,10 @@ Por Toni Reis & Angela Turizo
 - Usando la clasificación de la imdb hacer un sistema propio de votos para que las 5 más votadas sean proyectadas en una sala de cine. La votación se podrá realizar una vez el usuario este logueado.
 
 - Desde el modelo anterior en el Back-End de la aplicación con el objetivo de incluir unos end-points que se usarán en el front-end para la interacción con el cliente.
+
 Para el desarrollo del back-end hemos utilizando Node.js, Express, MongoDB y Mongoose. 
 - Las consultas que se han implementado están separadas en tres controladores :
+
     • Films 
     
     • Usuarios 
@@ -86,7 +89,7 @@ Podemos encontrar la API en :
 
 #### Usuario :
 
-  endpoint: Obtener un token
+        endpoint: Obtener un token
         Método: POST
         uri: /user/model
                 body parameters:
@@ -120,7 +123,7 @@ Films | Update One | El usuario, autenticado, actualiza un elemento |
 [![logo-proyecto](https://i.imgur.com/avrpsF7.jpg)](https://i.imgur.com/avrpsF7.jpg)
 Films | Remove One | El usuario, autenticado, elimina un elemento |
 
-    Votos
+#### Votos :
 
     Films | Create One | El usuario, autenticado, crea un elemento |
 [![logo-proyecto](https://i.imgur.com/avrpsF7.jpg)](https://i.imgur.com/avrpsF7.jpg)
