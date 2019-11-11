@@ -136,8 +136,6 @@ Podemos encontrar la API en :
      
      Resultado: Listado en json de todas las películas
 
-[![logo-proyecto](https://i.imgur.com/HaO5wz.jpg)](https://i.imgur.com/HaO5wz.jpg)
-
 **Films | List One | El usuario, autenticado, obtiene un elemento**
 
     endpoint: List One
@@ -146,7 +144,7 @@ Podemos encontrar la API en :
      
     Resultado: Listado en json de todas las películas
 
-[![logo-proyecto](https://i.imgur.com/avrpsF7.jpg)](https://i.imgur.com/avrpsF7.jpg)
+[![logo-proyecto](https://i.imgur.com/zSJr6Xp.jpg)](https://i.imgur.com/zSJr6Xp.jpg)
 
 **Films | Create One | El usuario, autenticado, crea un nuevo documento*
 
