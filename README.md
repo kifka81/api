@@ -103,7 +103,7 @@ Podemos encontrar la API en :
         string (required) 
         Example: 123456                       
                         
-[![logo-proyecto](https://i.imgur.com/RvYkG5Bt.jpg)](https://i.imgur.com/RvYkG5Bt.jpg)
+[![logo-proyecto](https://i.imgur.com/RvYkG5B.jpg)](https://i.imgur.com/RvYkG5B.jpg)
 
 **Usuario | Login | El usuario se autentica desde la aplicación cliente**
     endpoint: Login de Usuario
