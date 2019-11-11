@@ -102,15 +102,18 @@ Podemos encontrar la API en :
                         
         password
         string (required) 
-        Example: 123456                       
+        Example: 123456      
+        
+        Resultado: Registro usuario, creación del TOKEN
                         
 [![logo-proyecto](https://i.imgur.com/RvYkG5B.jpg)](https://i.imgur.com/RvYkG5B.jpg)
 
 **Usuario | Login | El usuario se autentica desde la aplicación cliente**
-    endpoint: Login de Usuario
-    Método: POST
-    uri: /usuarios/login
-    body parameters:
+
+     endpoint: Login de Usuario
+     Método: POST
+     uri: /usuarios/login
+     body parameters:
         email
         string (required) 
         Ejemplo:  toni@gmail.com
@@ -118,14 +121,20 @@ Podemos encontrar la API en :
         password
         string (required) 
         Ejemplo: 123456
-   Resultado: Login de entrada de un usuario ya registrado, creación del TOKEN 
-
+        
+        Resultado: Login de entrada de un usuario ya registrado, creación del TOKEN 
 
 [![logo-proyecto](https://i.imgur.com/5XpSuXG.jpg)](https://i.imgur.com/5XpSuXG.jpg)
 
 #### Films :
 
 **Films | List | El usuario, autenticado, accede a ver el listado completo de películas**
+
+     endpoint: List
+     Método: GET
+     uri: /film
+     
+     Resultado: Login de entrada de un usuario ya registrado, creación del TOKEN 
 [![logo-proyecto](https://i.imgur.com/HaO5wzt.jpg)](https://i.imgur.com/HaO5wzt.jpg)
 
 Films | List One | El usuario, autenticado, obtiene un elemento |
