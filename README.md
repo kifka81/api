@@ -10,15 +10,23 @@ Por Toni Reis & Angela Turizo
 
 - Crear una aplicación funcional en la que se presenta una selección de películas con la posibilidad de ver el detalle de cada una con información como:
 • Título
+
 • Año de estreno
-• cartel
+
+• Cartel
+
 • Y sobretodo con la clasificación que tienen las películas en la imdb
+
 - Usando la clasificación de la imdb hacer un sistema propio de votos para que las 5 más votadas sean proyectadas en una sala de cine. La votación se podrá realizar una vez el usuario este logueado.
 
 - Desde el modelo anterior en el Back-End de la aplicación con el objetivo de incluir unos end-points que se usarán en el front-end para la interacción con el cliente.
 Para el desarrollo del back-end hemos utilizando Node.js, Express, MongoDB y Mongoose. 
 - Las consultas que se han implementado están separadas en tres controladores :
-    • Films • Usuarios • Votos
+    • Films 
+    
+    • Usuarios 
+    
+    • Votos
 
          Proyecto Film Vote
             |_api
@@ -69,16 +77,16 @@ Para el desarrollo del back-end hemos utilizando Node.js, Express, MongoDB y Mon
 
 Podemos encontrar la API en :
 
-    - API Host : https://filmvote-api.herokuapp.com/film
+## API Host : https://filmvote-api.herokuapp.com/film
 
-    - Repositorio GitHub : https://github.com/kifka81/api
+## Repositorio GitHub : https://github.com/kifka81/api
 
 
 ### Endpoints por apartados:
 
 #### Usuario :
 
-        endpoint: Obtener un token
+  endpoint: Obtener un token
         Método: POST
         uri: /user/model
                 body parameters:
@@ -86,9 +94,11 @@ Podemos encontrar la API en :
                         string (required) Example: email@myemail.com
                         Un email válido
 
-                    password
-                        string (required) Example: mypassword
-                        Una contraseña válida
+          password
+          string (required) Example: mypassword
+          Una contraseña válida
+                        
+                        
 Usuario | #Register | El usuario se registra desde la aplicación cliente
 [![logo-proyecto](https://i.imgur.com/RvYkG5B.jpg)](https://i.imgur.com/RvYkG5B.jpg)
 
