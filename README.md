@@ -84,9 +84,9 @@ Podemos encontrar la API en :
 
 **Repositorio GitHub :** (https://github.com/kifka81/api)
 
-### Endpoints por apartados:
+### Endpoints por apartados
 
-#### Usuario :
+#### Usuarios :
 
 **Usuario | Register | El usuario se registra desde la aplicación cliente**
 
@@ -140,21 +140,92 @@ Podemos encontrar la API en :
 
 **Films | List One | El usuario, autenticado, obtiene un elemento**
 
+    endpoint: List One
+    Método: GET
+    uri: /film/5dc6931d8e3242fd911a8f17
+     
+    Resultado: Listado en json de todas las películas
+
 [![logo-proyecto](https://i.imgur.com/avrpsF7.jpg)](https://i.imgur.com/avrpsF7.jpg)
 
-Films | Create One | El usuario, autenticado, crea un elemento |
+**Films | Create One | El usuario, autenticado, crea un nuevo documento*
+
+    endpoint: Create
+    Método: POST
+    uri: /film
+    body parameters:
+      id: Number,
+      Title : String,
+      Year : String,
+      Released : String,
+      Runtime : String,
+      Genre : String,
+      Director : String,
+      Actors : String,
+      Plot : String,
+      Language : String,
+      Country : String,
+      Awards : String,
+      Poster : String,
+      imdbRating : String,
+      votos : Number
+     
+    Resultado: La entrada de un nuevo documento en la colección **Films**
+    
 [![logo-proyecto](https://i.imgur.com/avrpsF7.jpg)](https://i.imgur.com/avrpsF7.jpg)
 
-Films | Update One | El usuario, autenticado, actualiza un elemento |
+**Films | Update One | El usuario, autenticado, actualiza un campo de una película**
+
+    endpoint: upDate
+    Método: PUT
+    uri: /film/5dc6931d8e3242fd911a8f17
+    body parameters:
+      id: Number,
+      Title : String,
+      Year : String,
+      Released : String,
+      Runtime : String,
+      Genre : String,
+      Director : String,
+      Actors : String,
+      Plot : String,
+      Language : String,
+      Country : String,
+      Awards : String,
+      Poster : String,
+      imdbRating : String,
+      votos : Number
+     
+    Resultado: Actualiza el valor necesario dentro del documento
+
 [![logo-proyecto](https://i.imgur.com/avrpsF7.jpg)](https://i.imgur.com/avrpsF7.jpg)
-Films | Remove One | El usuario, autenticado, elimina un elemento |
+
+**Films | Remove One | El usuario, autenticado, elimina una película**
+
+    endpoint: Remove
+    Método: DELETE
+    uri: /film
+     
+    Resultado: Listado en json de todas las películas
+
+[![logo-proyecto](https://i.imgur.com/avrpsF7.jpg)](https://i.imgur.com/avrpsF7.jpg)
 
 #### Votos :
 
     Films | Create One | El usuario, autenticado, crea un elemento |
+    endpoint: List
+     Método: GET
+     uri: /film
+     
+     Resultado: Listado en json de todas las películas
 [![logo-proyecto](https://i.imgur.com/avrpsF7.jpg)](https://i.imgur.com/avrpsF7.jpg)
 
 Films | Update One | El usuario, autenticado, actualiza un elemento |
+endpoint: List
+     Método: GET
+     uri: /film
+     
+     Resultado: Listado en json de todas las películas
 [![logo-proyecto](https://i.imgur.com/avrpsF7.jpg)](https://i.imgur.com/avrpsF7.jpg)
 
 
