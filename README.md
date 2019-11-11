@@ -1,8 +1,8 @@
 [![logo-proyecto](https://i.imgur.com/bbISOvdm.png)](https://i.imgur.com/bbISOvdm.png)
 
 # Proyecto: Application MEAN Full-stack: Back-End 
->| FilmVote
-Por Toni Reis & Angela Turizo
+# | FilmVote
+> Por Toni Reis & Angela Turizo
 
 ### Objetivo
 
@@ -123,9 +123,9 @@ Podemos encontrar la API en :
 
 [![logo-proyecto](https://i.imgur.com/5XpSuXG.jpg)](https://i.imgur.com/5XpSuXG.jpg)
 
-    Films :
+#### Films :
 
-Films | List | El usuario, autenticado, accede a una lista completa de elementos |
+**Films | List | El usuario, autenticado, accede a ver el listado completo de películas**
 [![logo-proyecto](https://i.imgur.com/HaO5wzt.jpg)](https://i.imgur.com/HaO5wzt.jpg)
 
 Films | List One | El usuario, autenticado, obtiene un elemento |
