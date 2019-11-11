@@ -136,7 +136,7 @@ Podemos encontrar la API en :
      
      Resultado: Listado en json de todas las películas
 
-[![logo-proyecto](https://i.imgur.com/HaO5wzt.jpg)](https://i.imgur.com/HaO5wzt.jpg)
+[![logo-proyecto](https://i.imgur.com/HaO5wz.jpg)](https://i.imgur.com/HaO5wz.jpg)
 
 **Films | List One | El usuario, autenticado, obtiene un elemento**
 
@@ -170,7 +170,7 @@ Podemos encontrar la API en :
       imdbRating : String,
       votos : Number
      
-    Resultado: La entrada de un nuevo documento en la colección **Films**
+    Resultado: La entrada de un nuevo documento en la colección Films
     
 [![logo-proyecto](https://i.imgur.com/avrpsF7.jpg)](https://i.imgur.com/avrpsF7.jpg)
 
