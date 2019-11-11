@@ -87,6 +87,8 @@ Podemos encontrar la API en :
 
 #### Usuario :
 
+**Usuario | #Register | El usuario se registra desde la aplicación cliente**
+
     endpoint: Registro de Usuario
     Método: POST
     uri: /usuarios/register
@@ -101,10 +103,9 @@ Podemos encontrar la API en :
         string (required) 
         Example: 123456                       
                         
-**Usuario | #Register | El usuario se registra desde la aplicación cliente**
-
 [![logo-proyecto](https://i.imgur.com/RvYkG5B.jpg)](https://i.imgur.com/RvYkG5B.jpg)
 
+**Usuario | #Login | El usuario se autentica desde la aplicación cliente**
     endpoint: Login de Usuario
     Método: POST
     uri: /usuarios/login
@@ -118,7 +119,7 @@ Podemos encontrar la API en :
         Ejemplo: 123456
    Resultado: Login de entrada de un usuario ya registrado, creación del TOKEN 
 
-Usuario | #Login | El usuario se autentica desde la aplicación cliente
+
 [![logo-proyecto](https://i.imgur.com/5XpSuXG.jpg)](https://i.imgur.com/5XpSuXG.jpg)
 
     Films :
