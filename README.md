@@ -218,7 +218,7 @@ Podemos encontrar la API en :
      Resultado: Listado en json de todas las películas
 [![logo-proyecto](https://i.imgur.com/avrpsF7.jpg)](https://i.imgur.com/avrpsF7.jpg)
 
-Films | Update One | El usuario, autenticado, actualiza un elemento |
+**Films | Update One | El usuario, autenticado, actualiza un elemento**
 endpoint: List
      Método: GET
      uri: /film
