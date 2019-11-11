@@ -1,6 +1,7 @@
 [![logo-proyecto](https://i.imgur.com/bbISOvdm.png)](https://i.imgur.com/bbISOvdm.png)
 
-# Proyecto: Application MEAN Full-stack: Back-End | FilmVote
+# Proyecto: Application MEAN Full-stack: Back-End 
+>| FilmVote
 Por Toni Reis & Angela Turizo
 
 ### Objetivo
