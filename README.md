@@ -1,7 +1,7 @@
 [![logo-proyecto](https://i.imgur.com/bbISOvdm.png)](https://i.imgur.com/bbISOvdm.png)
 
 # Proyecto: Application MEAN Full-stack: Back-End 
-# | FilmVote
+
 > Por Toni Reis & Angela Turizo
 
 ### Objetivo
@@ -104,7 +104,7 @@ Podemos encontrar la API en :
         string (required) 
         Example: 123456      
         
-        Resultado: Registro usuario, creación del TOKEN
+        Resultado: Registro de nuevo usuario, creación del TOKEN
                         
 [![logo-proyecto](https://i.imgur.com/RvYkG5B.jpg)](https://i.imgur.com/RvYkG5B.jpg)
 
@@ -134,10 +134,12 @@ Podemos encontrar la API en :
      Método: GET
      uri: /film
      
-     Resultado: Login de entrada de un usuario ya registrado, creación del TOKEN 
+     Resultado: Listado en json de todas las películas
+
 [![logo-proyecto](https://i.imgur.com/HaO5wzt.jpg)](https://i.imgur.com/HaO5wzt.jpg)
 
-Films | List One | El usuario, autenticado, obtiene un elemento |
+**Films | List One | El usuario, autenticado, obtiene un elemento**
+
 [![logo-proyecto](https://i.imgur.com/avrpsF7.jpg)](https://i.imgur.com/avrpsF7.jpg)
 
 Films | Create One | El usuario, autenticado, crea un elemento |
