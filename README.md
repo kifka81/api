@@ -87,7 +87,7 @@ Podemos encontrar la API en :
 
 #### Usuario :
 
-**Usuario | #Register | El usuario se registra desde la aplicación cliente**
+**Usuario | Register | El usuario se registra desde la aplicación cliente**
 
     endpoint: Registro de Usuario
     Método: POST
@@ -103,9 +103,9 @@ Podemos encontrar la API en :
         string (required) 
         Example: 123456                       
                         
-[![logo-proyecto](https://i.imgur.com/RvYkG5B.jpg)](https://i.imgur.com/RvYkG5B.jpg)
+[![logo-proyecto](https://i.imgur.com/RvYkG5Bt.jpg)](https://i.imgur.com/RvYkG5Bt.jpg)
 
-**Usuario | #Login | El usuario se autentica desde la aplicación cliente**
+**Usuario | Login | El usuario se autentica desde la aplicación cliente**
     endpoint: Login de Usuario
     Método: POST
     uri: /usuarios/login
